@@ -6,8 +6,9 @@ import time
 class video:
     def __init__(self):
         self.tagname=''
-        self.browser=webdriver.Chrome('F:\chromedriver\chromedriver.exe')
-    def Input(self,url,list):
+
+    def Input(self,url,list,driverpath):
+        self.browser=webdriver.Chrome(driverpath)
         self.browser.get(url)
         for cookie in list:
             self.browser.add_cookie(cookie)
