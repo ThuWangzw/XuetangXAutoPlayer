@@ -1,26 +1,24 @@
 from login import Loginer
 from video import video
 import os
-
-if(os.path.exists("user.conf")==False):
-    print("user.conf不存在")
+import json
+if(os.path.exists("conf.json")==False):
+    print("conf.json不存在")
     os.system("pause")
-f=open('user.conf','r')
+f=open('conf.json','r',encoding='gb2312')
+conf=json.load(f)
+print(conf)
+f.close()
 username=''
 password=''
 course=''
 chapter=''
-f.readline()
-username=f.readline().strip('\n')
-f.readline()
-password=f.readline().strip('\n')
-f.readline()
-course=f.readline().strip('\n')
-f.readline()
-chapter=f.readline().strip('\n')
-f.readline()
-driverpath=f.readline().strip('\n')
-f.close()
+driverpath=''
+username=conf['username']
+password=conf['password']
+course=conf['coursename']
+chapter=conf['chapter']
+driverpath=conf['chromedriver']
 log=Loginer()
 log.login(username,password)
 log.findcourse(course)

@@ -37,8 +37,8 @@ class video:
                     continue
                 #start
                 video=WebDriverWait(self.browser,30,0.5).until(EC.presence_of_element_located((By.XPATH,"//video")))
-
                 self.browser.execute_script("return arguments[0].play()",video)
+                self.browser.execute_script("return arguments[0].volume=0;",video)
                 while(self.browser.execute_script("return arguments[0].ended;",video) is False):
                     True
 

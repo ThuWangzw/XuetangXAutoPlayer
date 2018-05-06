@@ -1,0 +1,24 @@
+missing module named resource - imported by posix, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named posix - imported by os, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named _posixsubprocess - imported by subprocess, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named 'org.python' - imported by pickle, xml.sax, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named readline - imported by cmd, code, pdb, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named vms_lib - imported by platform, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named termios - imported by tty, getpass, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named grp - imported by tarfile, shutil, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, netrc, getpass, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named ce - imported by os, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named _dummy_threading - imported by dummy_threading, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named org - imported by copy, E:\大二下\XuetangxPlayer\XuetangXAutoPlayer\XuetangXAutoPlayer\src\AutoPlayer.py
+missing module named urllib2 - imported by selenium.webdriver.common.utils, selenium.webdriver.remote.remote_connection, selenium.webdriver.common.service
+missing module named StringIO - imported by selenium.webdriver.remote.webelement
+missing module named urlparse - imported by selenium.webdriver.remote.remote_connection
+missing module named httplib - imported by selenium.webdriver.firefox.webdriver, selenium.webdriver.remote.remote_connection, selenium.webdriver.safari.webdriver, selenium.webdriver.blackberry.webdriver, selenium.webdriver.webkitgtk.webdriver
+missing module named _winreg - imported by selenium.webdriver.firefox.firefox_binary
+missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile
+missing module named copy_reg - imported by cStringIO
